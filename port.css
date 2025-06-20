@@ -1,0 +1,59 @@
+.portfolio{
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px; 
+}
+.container {
+  display: flex;
+  height: 130;
+}
+
+.nav a{
+  padding: 15px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.nav li{
+  list-style: none;
+  justify-content: space-between;
+  float: left;
+  align-items: center;
+  padding: 20px;
+}
+.nav2 li{
+  list-style: none;
+  justify-content: space-between;
+  font-size: 20px;
+ align-items: center;
+ float:left;
+ padding: 20px;
+}
+
+.nav ul li{
+  display: inline;
+}
+.column1 {
+  flex: 1;
+  background-color:rgb(218, 198, 241); 
+  padding:  140px;
+  color: #000;
+}
+
+.column {
+  flex: 1;
+  background-color:rgb(248, 212, 248);
+  padding:  140px;
+  color: #000;
+}
+.col3{
+  flex: 1;
+  text-align: right;
+  overflow: auto;
+  white-space: nowrap;
+  font-size: x-large;
+
+}
+
+
+
